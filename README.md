@@ -40,16 +40,5 @@ Run all the cells in the ipython notebook.
   
 
 ## Software and Library Requirements:
-Keras==2.2.2 <br>
-matplotlib==2.1.2 <br>
-numpy==1.15.4 <br>
-pandas==0.22.0 <br>
-pydot==1.4.0 <br>
-scikit-learn==0.19.1 <br>
-scipy==1.0.0 <br>
-sklearn==0.0 <br>
-spacy==2.0.18 <br> 
-tensorboard==1.9.0 <br>
-tensorflow==1.9.0 <br>
-spacy==2.0.18 <br>
-nltk==3.4 <br>
+
+Just do `pip install -r requirements.txt`
