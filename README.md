@@ -39,6 +39,12 @@ Run all the cells in the ipython notebook.
   - prints top 5 sentences which where predicted as "true" (not fake news) with highest softmax probabilities.
   
 
-## Software and Library Requirements:
-
-Just do `pip install -r requirements.txt`
+## How to setup & run the project on your local:
+1. Clone the repo.
+2. cd directory/path/to/repo
+3. Setup a virtualenv. For Mac OS it is:
+  - `pip install virtualenv`
+  - `virtualenv venv`
+  - `source venv/bin/activate`
+4. Run `pip install -r requirements.txt`
+5. Run `jupyter notebook`
