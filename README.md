@@ -39,17 +39,12 @@ Run all the cells in the ipython notebook.
   - prints top 5 sentences which where predicted as "true" (not fake news) with highest softmax probabilities.
   
 
-## Software and Library Requirements:
-Keras==2.2.2 <br>
-matplotlib==2.1.2 <br>
-numpy==1.15.4 <br>
-pandas==0.22.0 <br>
-pydot==1.4.0 <br>
-scikit-learn==0.19.1 <br>
-scipy==1.0.0 <br>
-sklearn==0.0 <br>
-spacy==2.0.18 <br> 
-tensorboard==1.9.0 <br>
-tensorflow==1.9.0 <br>
-spacy==2.0.18 <br>
-nltk==3.4 <br>
+## How to setup & run the project on your local:
+1. Clone the repo.
+2. cd directory/path/to/repo
+3. Setup a virtualenv. For Mac OS it is:
+  - `pip install virtualenv`
+  - `virtualenv venv`
+  - `source venv/bin/activate`
+4. Run `pip install -r requirements.txt`
+5. Run `jupyter notebook`
